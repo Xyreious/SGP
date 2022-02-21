@@ -1,0 +1,41 @@
+main: net.labotomy.sgp.sgp
+name: SGP # the plugins name as it should appear in the plugin list /pl
+version: 0.1 # the plugin's version
+description: Simple Gradle Plugin project template
+api-version: 1.18 # the version of the API you want to use, required starting with 1.13
+load: POSTWORLD # STARTUP is the other loading option
+author: Your Name
+# authors: [one, two]
+website: https://github.com/Labotomy?tab=repositories
+# depend: [one, two] # required plugin dependencies to load
+# softdepend: [one, two] # Extended functionality required plugins
+# loadbefore: [one, two] # List of plugins that should load BEFORE this one
+prefix: Example- # Prefis to use wehn console logging instead of the plugin name
+# libraries: # pending loading feature - see spigotmc site
+
+#commands:
+#  description: A simple description.
+#  aliases: [foobar, fubar]
+#  aliases: foobar
+#  permission: test.foo
+#  permission-message: You do not have permission to use this command.
+#  usage: "Usage: /<command> [test|stop]"
+#  Example
+#  flagrate:
+#  [optional command attributes]
+
+#permissions:
+#  description: Allows you to use the command /test
+#  default: true # true, false, op, not op
+#
+#  inferno.*:
+#  [optional permission attributes]
+#  inferno.flagate:
+#  [optional permission attributes]
+#
+# Children Permissions Example
+#permissions:
+#  test.all:
+#    children:
+#      test.foo: true
+#      test.bar: false
