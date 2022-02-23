@@ -26,6 +26,7 @@ dependencies {
 
     compileOnly 'org.spigotmc:spigot-api:1.18.1-R0.1-SNAPSHOT' // The Spigot API with no shadowing.
     annotationProcessor 'org.spigotmc:plugin-annotations:1.2.3-SNAPSHOT'  // For Annotations support instead of manual plugin.yml
+    compileOnly 'org.spigotmc:plugin-annotations:1.2.3-SNAPSHOT'
 }
 
 test {
